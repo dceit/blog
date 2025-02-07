@@ -116,9 +116,9 @@ $dm-text-color:            #bbbbbb !default;
 $dm-background-color:      #181818 !default;
 $dm-code-background-color: #212121 !default;
 
-$dm-link-base-color:       #79b8ff !default;
-$dm-link-visited-color:    $dm-link-base-color !default;
-$dm-link-hover-color:      $dm-text-color !default;
+$dm-link-base-color:       #f2cbf2 !default;
+$dm-link-visited-color:    #f2cbf2 !default;
+$dm-link-hover-color:      white !default;
 
 $dm-border-color-01:       $dm-brand-color-dark !default;
 $dm-border-color-02:       $dm-brand-color-light !default;
@@ -292,6 +292,24 @@ $table-border-color: $lm-table-border-color;
       --minima-table-header-bg-color: #{$dm-table-header-bg-color};
       --minima-table-header-border: #{$dm-table-header-border};
       --minima-table-border-color: #{$dm-table-border-color};
+    }
+
+    .site-title {
+      font-weight: 500 !important;
+    }
+
+    .post-content {
+      color: #cccccc;
+    }
+
+    .post-content > h3 {
+      font-weight: 400 !important;
+      color: #f9e8f9 !important;
+    }
+
+    .post-header > h1 {
+      font-weight: 600 !important;
+      color: #f2cbf2 !important;
     }
 
     @include dm-highlight;
